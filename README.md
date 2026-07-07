@@ -7,6 +7,7 @@ This project demonstrates the use of Wireshark to capture and analyze live netwo
 
 
 # Objectives
+
 -Capture live network packets
 -Analyze DNS request and response packets
 -Observe TCP three-way handshake
