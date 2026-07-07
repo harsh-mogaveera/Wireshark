@@ -1,4 +1,4 @@
-# Wireshark
+## Wireshark
 Network-traffic analyzer
 
 Overview
@@ -6,7 +6,7 @@ Overview
 This project demonstrates the use of Wireshark to capture and analyze live network traffic in a controlled environment. The analysis focuses on DNS queries, TCP communication, ARP requests and replies, and HTTPS (TLS) traffic to understand how devices communicate over a network.
 
 
-## Objectives
+# Objectives
 Capture live network packets
 Analyze DNS request and response packets
 Observe TCP three-way handshake
@@ -15,26 +15,26 @@ Understand encrypted HTTPS communication using TLS
 Interpret captured packets from a security perspective
 
 
-## Tools 
+# Tools 
 Kali Linux
 Wireshark
 VMware Workstation
 Firefox Web Browser
 
 
-## Network Setup
+# Network Setup
 Operating System: Kali Linux
 Capture Interface: eth0
 Environment: VMware NAT Network
 
 
-## Protocols Analyzed
+# Protocols Analyzed
 DNS
 TCP
 TLS/HTTPS
 ARP
 
-## Analysis Performed:
+# Analysis Performed:
 # DNS Analysis
 Observed DNS queries and responses.
 Identified domain name resolution process.
@@ -62,7 +62,7 @@ Captured ARP Reply packets.
 Observed IP-to-MAC address resolution inside the local network.
 
 
-## Key Findings
+# Key Findings
 DNS translates domain names into IP addresses.
 TCP establishes reliable communication using the three-way handshake.
 HTTPS encrypts communication after the TLS handshake.
@@ -70,7 +70,7 @@ ARP resolves IP addresses to MAC addresses within the local network.
 Most modern websites communicate over encrypted HTTPS.
 
 
-## Security Observations
+# Security Observations
 DNS traffic may reveal visited domains if not protected.
 HTTP traffic is unencrypted, whereas HTTPS encrypts transmitted data.
 ARP lacks authentication and is susceptible to ARP spoofing attacks.
