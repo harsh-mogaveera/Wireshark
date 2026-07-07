@@ -7,42 +7,42 @@ This project demonstrates the use of Wireshark to capture and analyze live netwo
 
 
 # Objectives
-Capture live network packets
-Analyze DNS request and response packets
-Observe TCP three-way handshake
-Study ARP request and reply process
-Understand encrypted HTTPS communication using TLS
-Interpret captured packets from a security perspective
+-Capture live network packets
+-Analyze DNS request and response packets
+-Observe TCP three-way handshake
+-Study ARP request and reply process
+-Understand encrypted HTTPS communication using TLS
+-Interpret captured packets from a security perspective
 
 
 # Tools 
-Kali Linux
-Wireshark
-VMware Workstation
-Firefox Web Browser
+-Kali Linux
+-Wireshark
+-VMware Workstation
+-Firefox Web Browser
 
 
 # Network Setup
-Operating System: Kali Linux
-Capture Interface: eth0
-Environment: VMware NAT Network
+-Operating System: Kali Linux
+-Capture Interface: eth0
+-Environment: VMware NAT Network
 
 
 # Protocols Analyzed
-DNS
-TCP
-TLS/HTTPS
-ARP
+-DNS
+-TCP
+-TLS/HTTPS
+-ARP
 
 # Analysis Performed:
 # DNS Analysis
-Observed DNS queries and responses.
-Identified domain name resolution process.
-Analyzed A (IPv4) and AAAA (IPv6) DNS records.
+-Observed DNS queries and responses.
+-Identified domain name resolution process.
+-Analyzed A (IPv4) and AAAA (IPv6) DNS records.
 
 # TCP Analysis
-Observed TCP three-way handshake.
-Verified connection establishment using:
+-Observed TCP three-way handshake.
+-Verified connection establishment using:
 SYN
 SYN-ACK
 ACK
